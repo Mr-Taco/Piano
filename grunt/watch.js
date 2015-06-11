@@ -19,6 +19,12 @@ module.exports = {
             ,'browserify:vendors'
         ]
     },
+    jade: {
+        files: [
+            'src/jade/*.jade'
+        ],
+        tasks:['jade']
+    },
     images : {
         files: [
             'src/images/**/*.{jpg,gif,png,svg}'

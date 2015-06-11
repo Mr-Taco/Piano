@@ -11,5 +11,5 @@ import $ from 'jquery';
 
 
 
-console.log("WILDLIFE.LA QUICK BUILD);
+console.log("WILDLIFE.LA QUICK BUILD");
 
