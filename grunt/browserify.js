@@ -32,6 +32,7 @@ module.exports = {
             'public/js/app.js' : 'src/js/app.js'
         }
         ,options: {
+            watch:true,
             browserifyOptions: {
                 debug:true
             }
