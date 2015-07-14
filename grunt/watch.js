@@ -2,15 +2,6 @@ module.exports = {
     options: {
         nospawn:true
     },
-    browserify: {
-        files: [
-            'src/js/**/*.js'
-        ],
-        tasks: [
-            'jshint:frontend'
-            ,'browserify:app'
-        ]
-    },
     vendors: {
         files: [
             'grunt/browserify.js'
@@ -33,7 +24,7 @@ module.exports = {
 
     },
     sass: {
-        files: ['src/css/**/*.scss'],
+        files: ['src/scss/**/*.scss'],
         tasks: ['sass:dev','autoprefixer']
     }
 
