@@ -5,3 +5,115 @@ body {
     background:#d5d5d5;
     
 }
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5%;
+    box-sizing: border-box;
+
+    .button-wrapper {
+        width: 100%;
+        height: 70px;
+        text-align: center;
+    }
+
+    .blue-btn {
+        width: 450px;
+        padding: 10px;
+        margin: 0 20px;
+        color: black;
+        font-size: 24px;
+        font-family: Arial;
+        background-color: #1688d1;
+        border-radius: 8px;
+        //transition: background .35s ease-in-out;
+
+        &:hover {
+            background-color: #fff;
+        }
+    }
+
+    .piano-wrapper {
+        width: 100%;
+    }
+
+    .piano {
+        width: 100%;
+        height: 600px;
+        max-width: 800px;
+        margin: 0 auto 20px;
+    }
+
+    .key-wrapper {
+        position: relative;
+        width: 100%;
+        height: 70%;
+        margin-bottom: 20px;
+    }
+
+    .key {
+        width: 14.2857%;
+        height: 100%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: left;
+        background-color: white;
+        color: black;
+        position: relative;
+        transform-origin: top center;
+        transform-style: preserve-3d;
+        //transition: all .35s ease-in-out;
+
+        span {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            font-weight: bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            transform: translateX(-50%);
+        }
+    }
+
+    .sharp {
+        width: 8%;
+        height: 65%;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        background-color: black;
+
+        &.c-sharp {
+            left: 10%;
+        }
+
+        &.d-sharp {
+            left: 24.5%;
+        }
+
+        &.f-sharp {
+            left: 52.5%;
+        }
+
+        &.g-sharp {
+            left: 67%;
+        }
+
+        &.a-sharp {
+            left: 81%;
+        }
+    }
+
+    textarea {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: -15%;
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 20px;
+    }
+}
