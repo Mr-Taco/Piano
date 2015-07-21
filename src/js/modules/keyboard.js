@@ -133,8 +133,7 @@ export class Keyboard extends EventEmitter {
                     repeat: 1,
                     repeatDelay: 0.6,
                     yoyo: true,
-                    ease: Power1.easeInOut,
-                    delay: z
+                    ease: Power1.easeInOut
                 }
             );
         }

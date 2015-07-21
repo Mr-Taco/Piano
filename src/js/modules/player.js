@@ -81,7 +81,7 @@ export class Player extends EventEmitter {
                 alpha: 1,
                 ease: Sine.easeOut
             }
-        )
+        );
     }
 
     trackKeyClick (e) {
