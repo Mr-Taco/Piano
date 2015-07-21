@@ -1,4 +1,3 @@
-## WILDLIFE.LA STATIC BUILD
 
 #### Pre-requisites
 * Node.js 0.10+
