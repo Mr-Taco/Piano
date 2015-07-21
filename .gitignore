@@ -40,10 +40,6 @@ docs/
 
 log/
 
-
-public/js/*.js
-public/css/*.css
-public/css/*.map
 public/images
 public/*.html
 
